@@ -1,0 +1,13 @@
+# server:
+#   port: 8081
+
+spring:
+   data:
+     mongodb:
+       uri: mongodb://root:d3v-t35t3r-0p5@localhost:17027/challenger?authSource=admin
+#     rest:
+#       basePath: /api/v1/
+
+server:
+  servlet:
+    contextPath: /api/v1/
